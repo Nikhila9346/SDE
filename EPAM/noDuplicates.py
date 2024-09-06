@@ -1,3 +1,6 @@
+'''
+Return the string without duplicates (case-insensitive) and the order should be preserved
+'''
 def noDuplicates(nums):
     i = 0
     s = nums[0]
