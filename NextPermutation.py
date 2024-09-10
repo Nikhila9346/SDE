@@ -1,5 +1,5 @@
 '''
-#31 NEXT PERMUTATION
+#31 NEXT PERMUTATION - Find the next permutation of the given array (lexicographically greater than the given array)
 
 Observation:
 1. Understand how you'll search for a word in dictionary
