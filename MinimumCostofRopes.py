@@ -1,3 +1,8 @@
+'''
+Time Complexity: O(nlogn)
+Space Complexity: O(1)
+'''
+
 import heapq
 def MinimumCostofRopes(nums):
     heapq.heapify(nums)
