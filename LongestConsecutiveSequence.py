@@ -1,15 +1,21 @@
 '''
-1. Iterate through the given array
+OBSERVATION:
+If the previous element is not present that means it is the starting point of the sequence
+
+1. Iterate through the set
 2. For every element (i), check whether (i-1)th element is in the array
     (i) If yes --> go to the next element
     (ii) If no --> increase count by 1 (that means it is the starting point of the sequence) and also check if (i+1)th, (i+2)th... elements are also present by increasing count values
 3. Update the maxi_len everytime by comparing it with the count
 4. And whenever you don't find any (i+n)th element, make count = 1
+
+Time Complexity: O(n)
+Space Complexity: O(n)
 '''
 
 def LongestConsecutive(arr):
     count = 1
-    maxi_len = float('-inf')
+    maxi_len = 0
     nums = set(arr)
     for i in nums:
         if i-1 not in nums:
