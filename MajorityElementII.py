@@ -1,3 +1,10 @@
+'''
+Find the majority Element which appears more than n/3 times 
+
+Time Complexity: O(n)+O(n)
+Space Complexity: O(1) --> list of max 2 elements which takes constant time
+'''
+
 def MajorityElementII(nums):
     n = len(nums)
     ele1, ele2 = float('-inf'), float('-inf')
@@ -21,7 +28,6 @@ def MajorityElementII(nums):
             count1 -= 1
             count2 -= 1
     #finding how many time ele1, ele2 appears
-
     count1, count2 = 0, 0
     for i in nums:
         if i == ele1:
