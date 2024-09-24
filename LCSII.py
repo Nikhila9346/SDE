@@ -22,4 +22,5 @@ def Longest(nums):
 
 nums = [5, 8, 3, 2, 1, 1, 4]
 nums = [102, 4, 100, 1, 101, 3, 2, 1, 1, 2]
+nums = [0,3,7,2,5,8,4,6,0,1]
 print(Longest(nums))

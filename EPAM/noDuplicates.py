@@ -3,10 +3,11 @@ Return the string without duplicates (case-insensitive) and the order should be 
 '''
 
 def case(k):
-    if 65<=ord(k)<=90:
-        l = ord(k) + 32
-    else:
-        l = ord(k) - 32
+    l = ord(k) + 32 if 65<=ord(k)<=90 else ord(k) - 32
+    # if 65<=ord(k)<=90:
+    #     l = ord(k) + 32
+    # else:
+    #     l = ord(k) - 32
     return chr(l)
 
 def noDuplicates(nums):
