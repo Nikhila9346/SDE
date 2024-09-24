@@ -1,5 +1,8 @@
 '''
-Majority Element n/2
+Majority Element n/2 (The array contains exactly one majority Element)
+
+Time Complexity: O(n)
+Space Complexity: O(1)
 '''
 
 def MajorityElement(nums):
