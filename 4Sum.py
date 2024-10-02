@@ -1,4 +1,7 @@
 '''
+Return all the subarrays that sum to k
+Time Complexity: O(n2)
+Space Complexity: O(n)
 '''
 
 def FourSum(arr, n, target):
